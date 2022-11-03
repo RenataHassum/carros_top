@@ -8,9 +8,9 @@ export default function Catalog() {
     <>
       <Header />
       <main>
-        <section>
+        <section id='ct-catalog-section'>
           <SearchBar />
-          <div className="grid-card container">
+          <div className="grid-card ct-container">
             <Card />
             <Card />
             <Card />

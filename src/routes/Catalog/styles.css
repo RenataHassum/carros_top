@@ -1,5 +1,16 @@
+#ct-catalog-section {
+  padding: 40px 10px;
+}
+
 .grid-card {
-  display: grid;
+    display: grid;
   grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
   gap: 20px;
+}
+
+@media (min-width: 576px) {
+  #ct-catalog-section {
+    padding: 40px 20px;
+  }
+  
 }

@@ -3,7 +3,7 @@ import carImg from '../../assets/car.png';
 
 export default function Card() {
   return (
-      <div className="card-container">
+      <div className="card-container ct-container">
         <div className="card-img">
           <img src={carImg} alt="Carro" />
         </div>
