@@ -1,0 +1,14 @@
+.card-button {
+  height: 40px;
+  width: 100%;
+  background-color: var(--bg-button);
+  color: var(--color-button);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+}

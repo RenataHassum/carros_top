@@ -1,20 +1,17 @@
 import './styles.css';
 import carImg from '../../assets/car.png';
+import Button from '../Button';
 
 export default function Card() {
   return (
       <div className="card-container ct-container">
-        <div className="card-img">
           <img src={carImg} alt="Carro" />
-        </div>
-        <div className="card-text">
-          <h2>Audi Supra TT</h2>
+          <h3>Audi Supra TT</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Cupiditate, nisi
           </p>
-        <button className="card-button">Comprar</button>
-        </div>
+          <Button />
       </div>
   );
 }
